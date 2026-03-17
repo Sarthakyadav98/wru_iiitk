@@ -1,0 +1,24 @@
+{
+  "name": "iiit-kottayam-faculty-finder",
+  "version": "1.0.0",
+  "description": "Faculty Room Finder and Navigation System for IIIT Kottayam",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "start-backend": "cd backend && npm run dev",
+    "start-frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "keywords": [
+    "faculty-finder",
+    "navigation",
+    "iiit-kottayam",
+    "room-finder",
+    "campus-navigation"
+  ],
+  "author": "IIIT Kottayam",
+  "license": "MIT"
+}
